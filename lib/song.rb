@@ -5,6 +5,7 @@ class Song
   @@all = []
   @@songs=[]
   
+  
   def self.create 
     song= self.new
     @@all<< song
